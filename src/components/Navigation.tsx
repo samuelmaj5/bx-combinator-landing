@@ -21,10 +21,15 @@ const Navigation = () => {
               <Link to="/recommendations">Recs</Link>
             </Button>
             <Button 
-              className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300 text-sm sm:text-base px-3 sm:px-4"
+              className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300 text-sm sm:text-base px-3 sm:px-4 min-h-[44px] touch-manipulation"
               asChild
             >
-              <a href="https://form.typeform.com/to/W3RTVrbF" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://form.typeform.com/to/W3RTVrbF" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center"
+              >
                 <span className="hidden sm:inline">Apply Now</span>
                 <span className="sm:hidden">Apply</span>
               </a>

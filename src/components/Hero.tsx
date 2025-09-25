@@ -24,13 +24,18 @@ const Hero = () => {
             </blockquote>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center relative z-10">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300 text-lg px-8 py-6"
+              className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 min-h-[48px] touch-manipulation w-full sm:w-auto"
               asChild
             >
-              <a href="https://form.typeform.com/to/W3RTVrbF" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://form.typeform.com/to/W3RTVrbF" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2"
+              >
                 Apply Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
@@ -39,10 +44,15 @@ const Hero = () => {
             <Button 
               variant="static" 
               size="lg"
-              className="border-primary text-primary text-lg px-8 py-6"
+              className="border-primary text-primary text-lg px-8 py-6 min-h-[48px] touch-manipulation w-full sm:w-auto"
               asChild
             >
-              <a href="https://t.me/+SUC2dVDJ83liOGU0" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://t.me/+SUC2dVDJ83liOGU0" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2"
+              >
                 Join Community
               </a>
             </Button>

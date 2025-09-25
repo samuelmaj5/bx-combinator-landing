@@ -14,14 +14,19 @@ const CTA = () => {
             Join the first cohort of motivated students and turn your ideas into reality.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center relative z-10">
             <Button 
               size="lg"
               variant="secondary"
-              className="bg-background hover:bg-background/90 text-foreground shadow-glow hover:shadow-elegant transition-all duration-300 text-lg px-8 py-6"
+              className="bg-background hover:bg-background/90 text-foreground shadow-glow hover:shadow-elegant transition-all duration-300 text-lg px-8 py-6 min-h-[48px] touch-manipulation w-full sm:w-auto"
               asChild
             >
-              <a href="https://form.typeform.com/to/W3RTVrbF" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://form.typeform.com/to/W3RTVrbF" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2"
+              >
                 Apply to BX Combinator
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
@@ -30,10 +35,15 @@ const CTA = () => {
             <Button 
               size="lg"
               variant="static"
-              className="border-primary-foreground/30 text-white text-lg px-8 py-6"
+              className="border-primary-foreground/30 text-white text-lg px-8 py-6 min-h-[48px] touch-manipulation w-full sm:w-auto"
               asChild
             >
-              <a href="https://t.me/+SUC2dVDJ83liOGU0" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://t.me/+SUC2dVDJ83liOGU0" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2"
+              >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Join Telegram
               </a>
