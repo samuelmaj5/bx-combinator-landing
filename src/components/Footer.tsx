@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="py-12 bg-secondary/30 border-t border-border">
+    <footer className="py-12 bg-secondary/50 border-t border-border">
       <div className="container mx-auto px-6">
         <div className="text-center">
           <div className="mb-6">
-            <h3 className="text-2xl font-bold text-primary mb-2">BX Combinator</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-2">BX Combinator</h3>
             <p className="text-muted-foreground">
               Student-driven startup initiative at École Polytechnique
             </p>

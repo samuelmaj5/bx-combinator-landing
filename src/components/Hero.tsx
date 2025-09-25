@@ -3,12 +3,12 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-subtle">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
             Build the Future
-            <span className="bg-gradient-primary bg-clip-text text-transparent block">
+            <span className="text-primary block">
               Today
             </span>
           </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
 
           <div className="mb-12">
-            <blockquote className="text-lg md:text-xl italic text-primary/80 font-medium">
+            <blockquote className="text-lg md:text-xl italic text-foreground/80 font-medium">
               "Every $1B idea starts as a student project. Yours?"
             </blockquote>
           </div>
@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8 py-6"
+              className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300 text-lg px-8 py-6"
             >
               Apply Now
               <ArrowRight className="ml-2 h-5 w-5" />

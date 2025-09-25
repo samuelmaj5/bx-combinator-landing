@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
+    <section className="py-24 bg-gradient-primary text-primary-foreground relative overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-8">
@@ -18,7 +18,7 @@ const CTA = () => {
             <Button 
               size="lg"
               variant="secondary"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-glow hover:shadow-elegant transition-all duration-300 text-lg px-8 py-6"
+              className="bg-background hover:bg-background/90 text-foreground shadow-glow hover:shadow-elegant transition-all duration-300 text-lg px-8 py-6"
               asChild
             >
               <a href="#" target="_blank" rel="noopener noreferrer">
@@ -49,9 +49,8 @@ const CTA = () => {
       </div>
       
       {/* Background decoration */}
-      <div className="absolute inset-0 bg-gradient-primary opacity-95"></div>
-      <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary-foreground/10 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-background/10 rounded-full blur-3xl"></div>
     </section>
   );
 };
