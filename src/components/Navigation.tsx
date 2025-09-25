@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/bx-combinator-logo.png";
 
 const Navigation = () => {
   return (
@@ -6,10 +7,11 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            {/* Logo placeholder - replace with actual logo */}
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">BX</span>
-            </div>
+            <img 
+              src={logo} 
+              alt="BX Combinator" 
+              className="h-10 w-auto"
+            />
             <div className="text-2xl font-bold text-foreground">
               BX Combinator
             </div>
