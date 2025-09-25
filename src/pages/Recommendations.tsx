@@ -17,19 +17,19 @@ const Recommendations = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-6 py-24">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+      <div className="container mx-auto px-4 sm:px-6 py-20 sm:py-24">
+        <div className="text-center mb-12 sm:mb-16">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-foreground mb-4 sm:mb-6">
             Content <span className="text-primary">Recommendations</span>
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Curated content to fuel your entrepreneurial journey
           </p>
         </div>
 
-        <div className="grid gap-8 max-w-4xl mx-auto">
+        <div className="grid gap-6 sm:gap-8 max-w-4xl mx-auto">
           {videos.map((video) => (
-            <div key={video.id} className="bg-card rounded-lg overflow-hidden shadow-lg">
+            <div key={video.id} className="bg-card rounded-lg overflow-hidden shadow-lg mx-4 sm:mx-0">
               <div className="aspect-video">
                 <iframe
                   src={`https://www.youtube.com/embed/${video.id}`}
