@@ -5,6 +5,14 @@ const Recommendations = () => {
     { id: "uqc_vt95GJg", title: "Startup Video 3" },
     { id: "1W4dFNSQmnA", title: "Startup Video 4" },
     { id: "GU9iT7MW0rs", title: "Startup Video 5" },
+    { id: "KHSI0Qu4ovQ", title: "Startup Video 6" },
+    { id: "qp0HIF3SfI4", title: "Startup Video 7" },
+    { id: "5noIKN8t69U", title: "Startup Video 8" },
+    { id: "LSuSb7NFUT8", title: "Startup Video 9" },
+    { id: "6Bso2GYLoME", title: "Startup Video 10" },
+    { id: "ReGC2GtWFp4", title: "Startup Video 11" },
+    { id: "FPYl7nIKRbA", title: "Startup Video 12" },
+    { id: "6NZ8-WQGb-g", title: "Startup Video 13" },
   ];
 
   return (
