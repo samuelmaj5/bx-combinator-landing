@@ -37,7 +37,7 @@ const Hero = () => {
             </Button>
             
             <Button 
-              variant="outline" 
+              variant="static" 
               size="lg"
               className="border-primary text-primary text-lg px-8 py-6"
               asChild

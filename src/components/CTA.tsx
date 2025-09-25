@@ -29,7 +29,7 @@ const CTA = () => {
             
             <Button 
               size="lg"
-              variant="outline"
+              variant="static"
               className="border-primary-foreground/30 text-primary-foreground text-lg px-8 py-6"
               asChild
             >
