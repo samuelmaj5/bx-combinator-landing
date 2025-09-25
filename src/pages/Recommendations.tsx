@@ -1,0 +1,43 @@
+const Recommendations = () => {
+  const videos = [
+    { id: "LCEmiRjPEtQ", title: "Startup Video 1" },
+    { id: "IXubBqd8uXs", title: "Startup Video 2" },
+    { id: "uqc_vt95GJg", title: "Startup Video 3" },
+    { id: "1W4dFNSQmnA", title: "Startup Video 4" },
+    { id: "GU9iT7MW0rs", title: "Startup Video 5" },
+  ];
+
+  return (
+    <div className="min-h-screen bg-background">
+      <div className="container mx-auto px-6 py-24">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+            Content <span className="text-primary">Recommendations</span>
+          </h1>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Curated content to fuel your entrepreneurial journey
+          </p>
+        </div>
+
+        <div className="grid gap-8 max-w-4xl mx-auto">
+          {videos.map((video) => (
+            <div key={video.id} className="bg-card rounded-lg overflow-hidden shadow-lg">
+              <div className="aspect-video">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  title={video.title}
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Recommendations;

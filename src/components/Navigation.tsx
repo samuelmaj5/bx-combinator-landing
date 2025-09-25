@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -15,6 +16,9 @@ const Navigation = () => {
           <div className="flex items-center gap-4">
             <Button variant="ghost" className="text-foreground hover:text-primary">
               About
+            </Button>
+            <Button variant="ghost" className="text-foreground hover:text-primary" asChild>
+              <Link to="/recommendations">Recommendations</Link>
             </Button>
             <Button variant="ghost" className="text-foreground hover:text-primary">
               Community
