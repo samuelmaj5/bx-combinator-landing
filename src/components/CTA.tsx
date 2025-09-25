@@ -6,11 +6,11 @@ const CTA = () => {
     <section className="py-24 bg-gradient-primary text-primary-foreground relative overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-bold mb-8">
+          <h2 className="text-4xl md:text-6xl font-bold mb-8 text-white">
             Ready to Build?
           </h2>
           
-          <p className="text-xl md:text-2xl mb-12 opacity-90 leading-relaxed">
+          <p className="text-xl md:text-2xl mb-12 opacity-90 leading-relaxed text-white">
             Join the first cohort of motivated students and turn your ideas into reality.
           </p>
           
@@ -30,7 +30,7 @@ const CTA = () => {
             <Button 
               size="lg"
               variant="static"
-              className="border-primary-foreground/30 text-primary-foreground text-lg px-8 py-6"
+              className="border-primary-foreground/30 text-white text-lg px-8 py-6"
               asChild
             >
               <a href="https://t.me/+SUC2dVDJ83liOGU0" target="_blank" rel="noopener noreferrer">
@@ -41,7 +41,7 @@ const CTA = () => {
           </div>
           
           <div className="mt-12 pt-8 border-t border-primary-foreground/20">
-            <p className="text-lg opacity-75">
+            <p className="text-lg opacity-75 text-white">
               Questions? Reach out to us and let's build the future together.
             </p>
           </div>
