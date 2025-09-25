@@ -28,17 +28,23 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300 text-lg px-8 py-6"
+              asChild
             >
-              Apply Now
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <a href="https://form.typeform.com/to/W3RTVrbF" target="_blank" rel="noopener noreferrer">
+                Apply Now
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth text-lg px-8 py-6"
+              className="border-primary text-primary text-lg px-8 py-6"
+              asChild
             >
-              Join Community
+              <a href="https://t.me/+SUC2dVDJ83liOGU0" target="_blank" rel="noopener noreferrer">
+                Join Community
+              </a>
             </Button>
           </div>
         </div>

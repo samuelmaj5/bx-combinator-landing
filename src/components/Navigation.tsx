@@ -24,8 +24,11 @@ const Navigation = () => {
             </Button>
             <Button 
               className="bg-primary hover:bg-primary/90 hover:shadow-glow transition-all duration-300"
+              asChild
             >
-              Apply Now
+              <a href="https://form.typeform.com/to/W3RTVrbF" target="_blank" rel="noopener noreferrer">
+                Apply Now
+              </a>
             </Button>
           </div>
         </div>

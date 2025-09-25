@@ -21,7 +21,7 @@ const CTA = () => {
               className="bg-background hover:bg-background/90 text-foreground shadow-glow hover:shadow-elegant transition-all duration-300 text-lg px-8 py-6"
               asChild
             >
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://form.typeform.com/to/W3RTVrbF" target="_blank" rel="noopener noreferrer">
                 Apply to BX Combinator
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
@@ -30,10 +30,10 @@ const CTA = () => {
             <Button 
               size="lg"
               variant="outline"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-smooth text-lg px-8 py-6"
+              className="border-primary-foreground/30 text-primary-foreground text-lg px-8 py-6"
               asChild
             >
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/+SUC2dVDJ83liOGU0" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Join Telegram
               </a>
